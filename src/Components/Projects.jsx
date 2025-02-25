@@ -5,6 +5,7 @@ import animation from "../assets/animation.png";
 import reactNTDL from "../assets/reactNTDL.png";
 import contactlistapi from "../assets/contactlistapi.png";
 import expcards from "../assets/expcards.png";
+import portfolio from "../assets/portfolio.png";
 
 export const Projects = () => {
   const projects = [
@@ -41,7 +42,14 @@ export const Projects = () => {
       github: "https://github.com/Bhaveshsadhu/react_nottodo_list",
       url: "https://react-nottodo-list.vercel.app/",
       title: "React Not TODO List",
-      techstack: "Techstack: HTML, CSS, Bootstrap, JAVASCRIPT, REACT",
+      techstack: "Techstack: HTML, CSS, Bootstrap, REACT",
+    },
+    {
+      img: portfolio,
+      github: "https://github.com/Bhaveshsadhu/portfolioreact.git",
+      url: "https://portfolioreact-coral.vercel.app/",
+      title: "React Not TODO List",
+      techstack: "Techstack: HTML, CSS, Bootstrap, REACT & VITE",
     },
   ];
   return (
