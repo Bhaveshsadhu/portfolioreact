@@ -44,7 +44,7 @@ The main objective of this portfolio is to present my professional skills and pr
 
 ```bash
 git clone https://github.com/Bhaveshsadhu/portfolioreact.git
-cd your-portfolio
+cd portfolioreact
 ```
 
 ### 2️⃣ Install Dependencies
