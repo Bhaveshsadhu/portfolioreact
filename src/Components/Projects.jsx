@@ -6,6 +6,7 @@ import reactNTDL from "../assets/reactNTDL.png";
 import contactlistapi from "../assets/contactlistapi.png";
 import expcards from "../assets/expcards.png";
 import portfolio from "../assets/portfolio.png";
+import MoviesProject from "../assets/MoviesProject.png";
 
 export const Projects = () => {
   const projects = [
@@ -49,6 +50,13 @@ export const Projects = () => {
       github: "https://github.com/Bhaveshsadhu/portfolioreact.git",
       url: "https://portfolioreact-coral.vercel.app/",
       title: "React Not TODO List",
+      techstack: "Techstack: HTML, CSS, Bootstrap, REACT & VITE",
+    },
+    {
+      img: MoviesProject,
+      github: "https://github.com/Bhaveshsadhu/movieworld-react.git",
+      url: "https://movieworld-react-eta.vercel.app/",
+      title: "React - Movies World",
       techstack: "Techstack: HTML, CSS, Bootstrap, REACT & VITE",
     },
   ];
