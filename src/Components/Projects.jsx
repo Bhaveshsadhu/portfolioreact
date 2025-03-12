@@ -7,6 +7,7 @@ import contactlistapi from "../assets/contactlistapi.png";
 import expcards from "../assets/expcards.png";
 import portfolio from "../assets/portfolio.png";
 import MoviesProject from "../assets/MoviesProject.png";
+import FoodProject from "../assets/FoodProject.png";
 
 export const Projects = () => {
   const projects = [
@@ -57,6 +58,13 @@ export const Projects = () => {
       github: "https://github.com/Bhaveshsadhu/movieworld-react.git",
       url: "https://movieworld-react-eta.vercel.app/",
       title: "React - Movies World",
+      techstack: "Techstack: HTML, CSS, Bootstrap, REACT & VITE",
+    },
+    {
+      img: FoodProject,
+      github: "https://github.com/Bhaveshsadhu/foodsreact.git",
+      url: "https://foodsreact.vercel.app/",
+      title: "React - Food Project",
       techstack: "Techstack: HTML, CSS, Bootstrap, REACT & VITE",
     },
   ];
