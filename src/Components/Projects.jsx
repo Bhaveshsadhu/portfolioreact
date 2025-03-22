@@ -50,7 +50,7 @@ export const Projects = () => {
       img: portfolio,
       github: "https://github.com/Bhaveshsadhu/portfolioreact.git",
       url: "https://portfolioreact-coral.vercel.app/",
-      title: "React Not TODO List",
+      title: "Personal Portfolio",
       techstack: "Techstack: HTML, CSS, Bootstrap, REACT & VITE",
     },
     {

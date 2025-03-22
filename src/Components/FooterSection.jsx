@@ -24,12 +24,20 @@ export const FooterSection = ({ scrollYPosition }) => {
             <h3>Social Links</h3>
             <ul>
               <li>
-                <a href="www.linkedin.com/in/bhaveshsadhu" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/bhaveshsadhu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   LinkedIn
                 </a>
               </li>
               <li>
-                <a href="https://github.com/Bhaveshsadhu" target="_blank">
+                <a
+                  href="https://github.com/Bhaveshsadhu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   GitHub
                 </a>
               </li>

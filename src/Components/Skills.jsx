@@ -30,8 +30,9 @@ export const Skills = () => {
         </div>
 
         <div className="col-md-2 col-sm-6 col-xs-6 mb-4">
-          <i className="fa-brands fa-figma" style={{ color: "purple" }}></i>
-          <span>FIGMA</span>
+          {/* <i className="fa-brands fa-figma" style={{ color: "purple" }}></i> */}
+          <i className="fa-brands fa-node" style={{ color: "purple" }}></i>
+          <span>Node - Express</span>
         </div>
       </div>
     </section>

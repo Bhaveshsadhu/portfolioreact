@@ -32,9 +32,14 @@ export const Hero = () => {
             <span className="txt-animation">r</span>
           </h1>
           <p className="tag2">I Love to build Websites</p>
-          <button className="btn btn-secondary">
-            Download Resume <i className="fa-solid fa-circle-down"></i>
-          </button>
+          <a
+            href="/Bhavesh_Sadhu_Resume.pdf"
+            download="Bhavesh_Sadhu_Resume.pdf"
+          >
+            <button className="btn btn-secondary">
+              Download Resume <i className="fa-solid fa-circle-down"></i>
+            </button>
+          </a>
         </div>
         <div className="personal-photo col-sm-12 col-md-6 ">
           <img src={mypic} alt="" />
