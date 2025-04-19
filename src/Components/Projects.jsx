@@ -8,6 +8,9 @@ import expcards from "../assets/expcards.png";
 import portfolio from "../assets/portfolio.png";
 import MoviesProject from "../assets/MoviesProject.png";
 import FoodProject from "../assets/FoodProject.png";
+import financeTRacker from "../assets/financeTRacker.png";
+// import library from "../assets/library.png";
+import download from "../assets/download.png";
 
 export const Projects = () => {
   const projects = [
@@ -67,6 +70,28 @@ export const Projects = () => {
       title: "React - Food Project",
       techstack: "Techstack: HTML, CSS, Bootstrap, REACT & VITE",
     },
+    {
+      img: financeTRacker,
+      github: "https://github.com/Bhaveshsadhu/fs_client.git",
+      url: "https://fs-client-pi.vercel.app",
+      title: "Finance Tracker - MERN STACK",
+      techstack: "Techstack: HTML, REACT-BOOTSTRAP, REACT & VITE, EXPRESS, MONGODB",
+    },
+    {
+      img: download,
+      github: "",
+      url: "",
+      title: "Library Management - MERN STACK",
+      techstack: "Techstack: HTML, REACT-BOOTSTRAP, REACT & VITE, EXPRESS, MONGODB",
+    },
+    {
+      img: download,
+      github: "",
+      url: "",
+      title: "Coogs Cafe - MERN STACK",
+      techstack: "Techstack: HTML, REACT-BOOTSTRAP, REACT & VITE, EXPRESS, MONGODB",
+    },
+
   ];
   return (
     <section>

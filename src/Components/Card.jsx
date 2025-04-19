@@ -12,8 +12,8 @@ export const Card = ({ img, github, url, title, techstack }) => {
               <i className="fa-brands fa-chrome"></i>
             </a>
           </div>
-          <div className="mt-3">
-            <h6>{title}</h6>
+          <div className="mt-1">
+            <strong>{title}</strong>
             <p className="card-text">{techstack}</p>
           </div>
         </div>
