@@ -9,7 +9,7 @@ import moviesProjectImg from '/MoviesProject.png'
 import myPicImg from '/mypic.png'
 import portfolioImg from '/portfolio.png'
 import reactNTDLImg from '/reactNTDL.png'
-import storeImg from '/download.png'
+import storeImg from '/1.png'
 
 export const hero = {
   name: 'Bhavesh Sadhu',
@@ -58,23 +58,23 @@ export const projects = [
   {
     title: 'ECommeStore  – MERN CRUD + Auth',
     description:
-      'Full-stack e-commerce application featuring secure JWT authentication, product catalog, dynamic filtering, shopping cart, order management, and admin-level product controls. Includes global error handling, responsive UI, protected routes, and real-time updates using axios interceptors. Built with a scalable folder structure and production-ready deployment configuration. ',
+      'ECommStore is a production-ready full-stack e-commerce application built with the MERN stack. It features secure JWT authentication, Stripe Checkout integration, product and cart management, coupon handling, and an admin dashboard with analytics—designed using real-world architecture and best practices.',
     tech: ['React', 'Node', 'Express', 'MongoDB', 'Bootstrap'],
-    github: 'https://github.com/Bhaveshsadhu/ECommStore',
-    live: 'https://github.com/Bhaveshsadhu/ECommStore',
+    github: 'https://github.com/Bhaveshsadhu/ECommStore.git',
+    live: 'https://ecommstore.onrender.com/',
     image: storeImg,
-    tag: 'Comming Soon',
+
   },
-  {
-    title: 'Library Management System – MERN CRUD + Auth',
-    description:
-      'Full-stack library app with JWT-based authentication, refresh/access tokens, custom hooks, email notifications, global error handler, and Redux state management. ',
-    tech: ['React', 'Express', 'MongoDB', 'JWT', 'Tailwind'],
-    github: 'https://github.com/Bhaveshsadhu/fe_lms',
-    live: 'https://github.com/Bhaveshsadhu/fe_lms',
-    image: libraryImg,
-    tag: 'Comming Soon',
-  },
+  // {
+  //   title: 'Library Management System – MERN CRUD + Auth',
+  //   description:
+  //     'Full-stack library app with JWT-based authentication, refresh/access tokens, custom hooks, email notifications, global error handler, and Redux state management. ',
+  //   tech: ['React', 'Express', 'MongoDB', 'JWT', 'Tailwind'],
+  //   github: 'https://github.com/Bhaveshsadhu/fe_lms',
+  //   live: 'https://github.com/Bhaveshsadhu/fe_lms',
+  //   image: libraryImg,
+  //   tag: 'Comming Soon',
+  // },
   {
     title: 'Finance Tracker – CRUD + Search',
     description:
