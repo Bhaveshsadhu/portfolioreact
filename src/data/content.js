@@ -179,7 +179,7 @@ export const experience = [
   {
     role: 'Frontend Developer Intern',
     company: 'IPP Technologies',
-    years: '2017',
+    years: '2024',
     summary: 'Prototyped responsive interfaces and collaborated closely with design to ship polished React experiences.',
   },
   {
